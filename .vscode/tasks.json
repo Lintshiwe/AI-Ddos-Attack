@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run AI DDoS Simulator",
+            "type": "shell",
+            "command": "python main.py --url http://localhost --threads 100 --duration 30",
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}
